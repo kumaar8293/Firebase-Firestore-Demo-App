@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.firestoredemo">
+    package="com.mukesh.firestoredemo">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".view.home.HomeActivity">
+        <activity android:name="com.mukesh.firestoredemo.view.home.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,48 +21,48 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.firebaseOperations.JsonArrayData"
+            android:name="com.mukesh.firestoredemo.view.firebaseOperations.JsonArrayData"
             android:label="Json Array"
-            android:parentActivityName=".view.home.HomeActivity" />
+            android:parentActivityName="com.mukesh.firestoredemo.view.home.HomeActivity" />
         <activity
-            android:name=".view.firebaseOperations.Transactions"
+            android:name="com.mukesh.firestoredemo.view.firebaseOperations.Transactions"
             android:label="Transaction"
-            android:parentActivityName=".view.home.HomeActivity" />
+            android:parentActivityName="com.mukesh.firestoredemo.view.home.HomeActivity" />
         <activity
-            android:name=".view.firebaseOperations.ArraysOperation"
+            android:name="com.mukesh.firestoredemo.view.firebaseOperations.ArraysOperation"
             android:label="Arrays Operation"
-            android:parentActivityName=".view.home.HomeActivity" />
+            android:parentActivityName="com.mukesh.firestoredemo.view.home.HomeActivity" />
         <activity
-            android:name=".view.firebaseOperations.BatchWrites"
+            android:name="com.mukesh.firestoredemo.view.firebaseOperations.BatchWrites"
             android:label="Batch Writes"
-            android:parentActivityName=".view.home.HomeActivity" />
+            android:parentActivityName="com.mukesh.firestoredemo.view.home.HomeActivity" />
         <activity
-            android:name=".view.firebaseOperations.DocumentChanges"
+            android:name="com.mukesh.firestoredemo.view.firebaseOperations.DocumentChanges"
             android:label="Document Changes"
-            android:parentActivityName=".view.home.HomeActivity" />
+            android:parentActivityName="com.mukesh.firestoredemo.view.home.HomeActivity" />
         <activity
-            android:name=".view.firebaseOperations.PaginationInFirestore"
+            android:name="com.mukesh.firestoredemo.view.firebaseOperations.PaginationInFirestore"
             android:label="Pagination"
-            android:parentActivityName=".view.home.HomeActivity" />
+            android:parentActivityName="com.mukesh.firestoredemo.view.home.HomeActivity" />
         <activity
-            android:name=".view.firebaseOperations.CreateOrQueries"
-            android:parentActivityName=".view.home.HomeActivity" />
+            android:name="com.mukesh.firestoredemo.view.firebaseOperations.CreateOrQueries"
+            android:parentActivityName="com.mukesh.firestoredemo.view.home.HomeActivity" />
         <activity
-            android:name=".view.firebaseOperations.CompoundQueries"
+            android:name="com.mukesh.firestoredemo.view.firebaseOperations.CompoundQueries"
             android:label="Compound Queries"
-            android:parentActivityName=".view.home.HomeActivity" />
+            android:parentActivityName="com.mukesh.firestoredemo.view.home.HomeActivity" />
         <activity
-            android:name=".view.firebaseOperations.SimpleQueries"
+            android:name="com.mukesh.firestoredemo.view.firebaseOperations.SimpleQueries"
             android:label="Simple Queries"
-            android:parentActivityName=".view.home.HomeActivity" />
+            android:parentActivityName="com.mukesh.firestoredemo.view.home.HomeActivity" />
         <activity
-            android:name=".view.firebaseOperations.multiDoc.MultiDocOperation"
+            android:name="com.mukesh.firestoredemo.view.firebaseOperations.multiDoc.MultiDocOperation"
             android:label="Multi Doc"
-            android:parentActivityName=".view.home.HomeActivity" />
+            android:parentActivityName="com.mukesh.firestoredemo.view.home.HomeActivity" />
         <activity
-            android:name=".view.firebaseOperations.SingleDocRefOperation"
+            android:name="com.mukesh.firestoredemo.view.firebaseOperations.SingleDocRefOperation"
             android:label="Single Doc"
-            android:parentActivityName=".view.home.HomeActivity" />
+            android:parentActivityName="com.mukesh.firestoredemo.view.home.HomeActivity" />
     </application>
 
 </manifest>

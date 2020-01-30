@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "111290006570",
-    "firebase_url": "https://firestore-demo-app-1a6e6.firebaseio.com",
-    "project_id": "firestore-demo-app-1a6e6",
-    "storage_bucket": "firestore-demo-app-1a6e6.appspot.com"
+    "project_number": "591853412460",
+    "firebase_url": "https://fir-firestore-demo-app.firebaseio.com",
+    "project_id": "fir-firestore-demo-app",
+    "storage_bucket": "fir-firestore-demo-app.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:111290006570:android:e49a12c6b2564fef509753",
+        "mobilesdk_app_id": "1:591853412460:android:bd5857fb32188d4e15f849",
         "android_client_info": {
-          "package_name": "com.example.firestoredemo"
+          "package_name": "com.mukesh.firestoredemo"
         }
       },
       "oauth_client": [
         {
-          "client_id": "111290006570-8ru69rif2iedklndq43ojb4ekhg3u6qn.apps.googleusercontent.com",
+          "client_id": "591853412460-lh1isl4oi0mloupel33h9qsinb265tdj.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDbF9U1XMBag6W2Hj1dSMRPKOvya3Fy7J0"
+          "current_key": "AIzaSyCgBdQyKCRdXLqX7NSSyX7WvcCbagW_lwU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "111290006570-8ru69rif2iedklndq43ojb4ekhg3u6qn.apps.googleusercontent.com",
+              "client_id": "591853412460-lh1isl4oi0mloupel33h9qsinb265tdj.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
