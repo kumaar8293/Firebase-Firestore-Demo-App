@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Firestore Demo</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="add_note">Add Note</string>
+    <string name="update_description">Update description</string>
+    <string name="load_note">Load Note</string>
+    <string name="delete_doc">Delete doc</string>
+    <string name="load_all_note">Load All Note</string>
+    <string name="priority">Priority</string>
+</resources>

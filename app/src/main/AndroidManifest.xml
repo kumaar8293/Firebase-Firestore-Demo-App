@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.firestoredemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".view.home.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.firebaseOperations.JsonArrayData"
+            android:label="Json Array"
+            android:parentActivityName=".view.home.HomeActivity" />
+        <activity
+            android:name=".view.firebaseOperations.Transactions"
+            android:label="Transaction"
+            android:parentActivityName=".view.home.HomeActivity" />
+        <activity
+            android:name=".view.firebaseOperations.ArraysOperation"
+            android:label="Arrays Operation"
+            android:parentActivityName=".view.home.HomeActivity" />
+        <activity
+            android:name=".view.firebaseOperations.BatchWrites"
+            android:label="Batch Writes"
+            android:parentActivityName=".view.home.HomeActivity" />
+        <activity
+            android:name=".view.firebaseOperations.DocumentChanges"
+            android:label="Document Changes"
+            android:parentActivityName=".view.home.HomeActivity" />
+        <activity
+            android:name=".view.firebaseOperations.PaginationInFirestore"
+            android:label="Pagination"
+            android:parentActivityName=".view.home.HomeActivity" />
+        <activity
+            android:name=".view.firebaseOperations.CreateOrQueries"
+            android:parentActivityName=".view.home.HomeActivity" />
+        <activity
+            android:name=".view.firebaseOperations.CompoundQueries"
+            android:label="Compound Queries"
+            android:parentActivityName=".view.home.HomeActivity" />
+        <activity
+            android:name=".view.firebaseOperations.SimpleQueries"
+            android:label="Simple Queries"
+            android:parentActivityName=".view.home.HomeActivity" />
+        <activity
+            android:name=".view.firebaseOperations.multiDoc.MultiDocOperation"
+            android:label="Multi Doc"
+            android:parentActivityName=".view.home.HomeActivity" />
+        <activity
+            android:name=".view.firebaseOperations.SingleDocRefOperation"
+            android:label="Single Doc"
+            android:parentActivityName=".view.home.HomeActivity" />
+    </application>
+
+</manifest>
