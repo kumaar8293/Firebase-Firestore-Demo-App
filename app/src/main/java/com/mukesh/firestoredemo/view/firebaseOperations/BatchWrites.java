@@ -26,10 +26,10 @@ public class BatchWrites extends AppCompatActivity {
 
     /*
      *Each batch of writes can write to a maximum of 500 documents.
-     * f you do not need to read any documents in your operation set,
+     * if you do not need to read any documents in your operation set,
      * you can execute multiple write operations as a single batch that contains any
      * combination of set(), update(), or delete() operations. A batch of writes completes
-     * atomically and can write to multiple documents.
+     * automatically and can write to multiple documents.
      * A batched write can contain up to 500 operations. Each operation in the batch counts
      * separately towards your Cloud Firestore usage.
      */
